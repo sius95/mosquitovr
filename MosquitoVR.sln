@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{6D17FEBA-F682-26EB-1340-D46235E99CCA}") = "MosquitoVR", "Assembly-CSharp.csproj", "{0AEC9CAC-2B3E-EF26-8931-E693CC6F8645}"
+EndProject
+Project("{6D17FEBA-F682-26EB-1340-D46235E99CCA}") = "MosquitoVR", "Assembly-CSharp-Editor.csproj", "{DFB2271C-E0F9-4DCA-A421-F108E0D7EB6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AEC9CAC-2B3E-EF26-8931-E693CC6F8645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AEC9CAC-2B3E-EF26-8931-E693CC6F8645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AEC9CAC-2B3E-EF26-8931-E693CC6F8645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AEC9CAC-2B3E-EF26-8931-E693CC6F8645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFB2271C-E0F9-4DCA-A421-F108E0D7EB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFB2271C-E0F9-4DCA-A421-F108E0D7EB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFB2271C-E0F9-4DCA-A421-F108E0D7EB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFB2271C-E0F9-4DCA-A421-F108E0D7EB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
