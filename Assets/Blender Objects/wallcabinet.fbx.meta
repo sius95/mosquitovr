@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 98be3bac93ad7c94a897d7d39750c009
+timeCreated: 1485594315
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Book0.001
+    100002: Book0.002
+    100004: Book1.001
+    100006: Book1.002
+    100008: Book2.001
+    100010: Book2.002
+    100012: Book3.001
+    100014: Book3.002
+    100016: Book4.001
+    100018: Book4.002
+    100020: Book5.002
+    100022: Book6.001
+    100024: Book6.002
+    100026: Book7.001
+    100028: Book7.002
+    100030: Book8.001
+    100032: Book8.002
+    100034: Cabinet1
+    100036: Cabinet1.001
+    100038: //RootNode
+    400000: Book0.001
+    400002: Book0.002
+    400004: Book1.001
+    400006: Book1.002
+    400008: Book2.001
+    400010: Book2.002
+    400012: Book3.001
+    400014: Book3.002
+    400016: Book4.001
+    400018: Book4.002
+    400020: Book5.002
+    400022: Book6.001
+    400024: Book6.002
+    400026: Book7.001
+    400028: Book7.002
+    400030: Book8.001
+    400032: Book8.002
+    400034: Cabinet1
+    400036: Cabinet1.001
+    400038: //RootNode
+    2300000: Book0.001
+    2300002: Book0.002
+    2300004: Book1.001
+    2300006: Book1.002
+    2300008: Book2.001
+    2300010: Book2.002
+    2300012: Book3.001
+    2300014: Book3.002
+    2300016: Book4.001
+    2300018: Book4.002
+    2300020: Book5.002
+    2300022: Book6.001
+    2300024: Book6.002
+    2300026: Book7.001
+    2300028: Book7.002
+    2300030: Book8.001
+    2300032: Book8.002
+    2300034: Cabinet1
+    2300036: Cabinet1.001
+    3300000: Book0.001
+    3300002: Book0.002
+    3300004: Book1.001
+    3300006: Book1.002
+    3300008: Book2.001
+    3300010: Book2.002
+    3300012: Book3.001
+    3300014: Book3.002
+    3300016: Book4.001
+    3300018: Book4.002
+    3300020: Book5.002
+    3300022: Book6.001
+    3300024: Book6.002
+    3300026: Book7.001
+    3300028: Book7.002
+    3300030: Book8.001
+    3300032: Book8.002
+    3300034: Cabinet1
+    3300036: Cabinet1.001
+    4300000: Book0.002
+    4300002: Book1.002
+    4300004: Book2.002
+    4300006: Book3.002
+    4300008: Book4.002
+    4300010: Book5.002
+    4300012: Book6.002
+    4300014: Book7.002
+    4300016: Book8.002
+    4300018: Book8.001
+    4300020: Book7.001
+    4300022: Book6.001
+    4300024: Book4.001
+    4300026: Book3.001
+    4300028: Book2.001
+    4300030: Book1.001
+    4300032: Book0.001
+    4300034: Cabinet1.001
+    4300036: Cabinet1
+    6400000: Book0.001
+    6400002: Book0.002
+    6400004: Book1.001
+    6400006: Book1.002
+    6400008: Book2.001
+    6400010: Book2.002
+    6400012: Book3.001
+    6400014: Book3.002
+    6400016: Book4.001
+    6400018: Book4.002
+    6400020: Book5.002
+    6400022: Book6.001
+    6400024: Book6.002
+    6400026: Book7.001
+    6400028: Book7.002
+    6400030: Book8.001
+    6400032: Book8.002
+    6400034: Cabinet1
+    6400036: Cabinet1.001
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
