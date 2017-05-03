@@ -4,10 +4,17 @@ using System.Collections;
 public class HurtPlayer : MonoBehaviour {
 
     public Fly fly;
+    public Hitzone hitZone;
+    public ShooZone shooZone;
+    public HealthManager healthManager;
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start () 
+    {
+        fly = FindObjectOfType<Fly>();
+        hitZone = FindObjectOfType<Hitzone>();
+        shooZone = FindObjectOfType<ShooZone>();
+        healthManager = FindObjectOfType<HealthManager>();
 	}
 	
 	// Update is called once per frame
@@ -19,7 +26,10 @@ public class HurtPlayer : MonoBehaviour {
     {
         if(other.transform.tag == "Player")
         {
-            fly.isDead = true;
+            if(hitZone.onHitzone)
+                healthManager.isDead = true;
+            if (shooZone.onShooZone && !fly.playerHurt)
+                healthManager.DecreaseHealth(1);
         }
     }
 }

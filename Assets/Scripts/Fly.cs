@@ -4,8 +4,9 @@ using System.Collections;
 [RequireComponent(typeof(CharacterController))]
 public class Fly : MonoBehaviour 
 {
-    public bool isDead;
-    public GameObject gameOverScreen;
+    //public bool isDead;
+    //public HealthManager healthManager;
+    //public GameObject gameOverScreen;
 
     public float speed;
     public float moveVelocity;
@@ -19,10 +20,12 @@ public class Fly : MonoBehaviour
     public Vector3 cameraDirection;
     private Vector3 moveDirection = new Vector3(0,0,1);
     public bool onHitZone;
+    public bool playerHurt;
 
 	// Use this for initialization
 	void Start () 
     {
+        //healthManager = FindObjectOfType<HealthManager>();
 	    controller = GetComponent<CharacterController>();
         gvrViewer = GetComponent<GvrViewer>();
         vrHead = Camera.main.transform;
@@ -57,11 +60,11 @@ public class Fly : MonoBehaviour
             controller.Move(forward*moveSpeed);
         }
 
-        if (isDead)
-            gameOverScreen.SetActive(true);
+        //if (isDead || healthManager.GetHealth() == 0 )
+            //gameOverScreen.SetActive(true);
 	}
 
-    public void OnTriggerEnter(Collider other)
+/*    public void OnTriggerEnter(Collider other)
     {
         if(other.transform.tag == "Hitzone")
         {
@@ -75,5 +78,5 @@ public class Fly : MonoBehaviour
         {
             onHitZone = false;
         }
-    }
+    }*/
 }
